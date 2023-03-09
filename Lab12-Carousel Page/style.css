@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+header > * {
+  background-color: blue;
+  display: block;
+  height: 50px;
+  padding: 10px;
+}
+.carousel-item img {
+  height: 10%;
+  object-fit: cover;
+}
